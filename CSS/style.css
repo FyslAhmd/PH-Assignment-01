@@ -264,4 +264,30 @@ nav ul li {
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     padding: 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* social  */
+.social {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 160px;
+}
+.social-title {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.social hr {
+    margin: 0px auto;
+    width: 75%;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin: 32px 0px 50px 0px;
 }
