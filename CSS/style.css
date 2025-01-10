@@ -195,3 +195,40 @@ nav ul li {
 .recent-news-btn {
     margin: 32px 0px 8px 0px;
 }
+
+/* donate section  */
+.donate {
+    margin: 80px 160px;
+    text-align: center;
+}
+.donate-amount-fixed {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.donate-amount-note {
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.donate input[type="text"] {
+    text-align: center;
+    margin: 32px 124px;
+    padding: 20px 40px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+.donate-description {
+    margin: 24px 88px 32px 88px;
+}
+.donate .btn-2 {
+    background-color: rgb(198, 228, 214);
+}
