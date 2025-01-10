@@ -92,9 +92,106 @@ nav ul li {
     padding: 24px;
     margin-top: 32px;
 }
-.pillar-title {
+.pillar-title, .vision-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
     margin: 25px 0px 12px 0px;
+}
+
+/* vision section  */
+.vision {
+    margin: 80px 160px 32px 160px;
+}
+.vision-heading {
+    margin-bottom: 24px;
+}
+.vision-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.vision-card {
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+}
+.vision-container .card-1 {
+    background-color: rgb(84, 144, 245, 0.2);
+}
+.vision-container .card-2 {
+    background-color: rgb(198, 228, 214);
+}
+.vision-container .card-3 {
+    background-color: rgb(247, 235, 207);
+}
+.vision-container .btn-1 {
+    background-color: rgb(84, 144, 245);
+}
+.vision-container .btn-2 {
+    background-color: rgb(9, 161, 92);
+}
+.vision-container .btn-3 {
+    background-color: rgb(255, 194, 57);
+}
+
+/* quote of Dr. Younus */
+.quote {
+    margin: 32px 160px 80px 160px;
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 20px;
+}
+.quote-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0px 4px 0px;
+}
+
+/* recent news  */
+.recent {
+    margin: 80px 160px 24px 160px;
+}
+.recent .recent-description {
+    margin: 24px 0px 32px 0px;
+}
+.recent-news {
+    display: flex;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+.recent-news > img {
+    border-radius: 24px;
+}
+.recent-news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.recent-news-date-time {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px;
+}
+.recent-news-btn {
+    margin: 32px 0px 8px 0px;
 }
