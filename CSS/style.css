@@ -18,6 +18,9 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+.btn-primary:hover {
+    background-color: rgb(12, 190, 12);
+}
 .primary-heading {
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -54,6 +57,10 @@ nav ul li {
     font-size: 18px;
     font-weight: 600;
     padding: 15px 30px;
+}
+.nav-signin:hover {
+    color: black;
+    background-color: rgb(0, 106, 80);
 }
 
 /* banner section  */
@@ -137,11 +144,20 @@ nav ul li {
 .vision-container .btn-1 {
     background-color: rgb(84, 144, 245);
 }
+.vision-container .btn-1:hover {
+    background-color: rgb(9, 161, 92);
+}
 .vision-container .btn-2 {
     background-color: rgb(9, 161, 92);
 }
+.vision-container .btn-2:hover {
+    background-color: rgb(255, 194, 57);
+}
 .vision-container .btn-3 {
     background-color: rgb(255, 194, 57);
+}
+.vision-container .btn-3:hover {
+    background-color: rgb(84, 144, 245);
 }
 
 /* quote of Dr. Younus */
@@ -232,7 +248,9 @@ nav ul li {
 .donate .btn-2 {
     background-color: rgb(198, 228, 214);
 }
-
+.donate-amount-note:hover {
+    background-color: aquamarine;
+}
 /* subscribe  */
 .subscribe {
     margin: 80px 160px;
@@ -268,7 +286,10 @@ nav ul li {
     font-size: 18px;
     font-weight: 600;
 }
-
+.subscribe-button:hover {
+    color: black;
+    background-color: cadetblue;
+}
 /* social  */
 .social {
     background-color: rgb(255, 255, 255);
